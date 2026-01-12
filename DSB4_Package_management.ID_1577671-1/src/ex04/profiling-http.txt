@@ -1,0 +1,15 @@
+Sun Jan  4 21:46:02 2026    stats.prof
+
+         627354 function calls (603600 primitive calls) in 2.969 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2293 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    240/1    0.007    0.000    2.969    2.969 {built-in method builtins.exec}
+        1    0.000    0.000    2.969    2.969 financial_enhanced.py:1(<module>)
+        1    0.001    0.001    2.724    2.724 financial_enhanced.py:7(main)
+        1    0.000    0.000    2.586    2.586 /home/nurulloh/projects/DSB4_Package_management.ID_1577671-1/src/ex00/shorbeni/lib/python3.13/site-packages/httpx/_api.py:174(get)
+        1    0.000    0.000    2.586    2.586 /home/nurulloh/projects/DSB4_Package_management.ID_1577671-1/src/ex00/shorbeni/lib/python3.13/site-packages/httpx/_api.py:39(request)
+
+

@@ -1,0 +1,168 @@
+# Loyihani tekshirish bo'yicha qo'llanma
+
+Bu faylda har bir mashqni (ex00 dan ex09 gacha) qanday ishga tushirish va qanday natija kutish kerakligi yozilgan.
+Barcha buyruqlar `src` papkasi ichida turib bajarilishi tavsiya etiladi.
+
+---
+
+## ex00: Data Types
+**Fayl:** `ex00/data_types.py`
+**Vazifa:** O'zgaruvchilarning turlarini aniqlash va chiqarish.
+**Ishga tushirish:**
+```bash
+python3 ex00/data_types.py
+```
+**Kutilayotgan natija:**
+```
+['int', 'str', 'float', 'bool', 'list', 'dict', 'tuple', 'set']
+```
+
+---
+
+## ex01: Read and Write
+**Fayl:** `ex01/read_and_write.py`
+**Vazifa:** `ds.csv` faylini o'qib, ma'lumotlarni o'zgartirib `ds.tsv` fayliga yozish.
+**Ishga tushirish:**
+```bash
+python3 ex01/read_and_write.py
+```
+**Kutilayotgan natija:**
+Ekranda hech narsa chiqmaydi. `src/ex01` papkasida `ds.tsv` fayli paydo bo'ladi (yoki yangilanadi).
+
+---
+
+## ex02: Stock Prices
+**Fayl:** `ex02/stock_prices.py`
+**Vazifa:** Kompaniya nomi kiritilganda uning aksiya narxini chiqarish.
+**Ishga tushirish (1-misol):**
+```bash
+python3 ex02/stock_prices.py Apple
+```
+**Natija:** `287.73`
+
+**Ishga tushirish (2-misol):**
+```bash
+python3 ex02/stock_prices.py Google
+```
+**Natija:** `Unknown company`
+
+---
+
+## ex03: Ticker Symbols
+**Fayl:** `ex03/ticker_symbols.py`
+**Vazifa:** Ticker belgisi kiritilganda kompaniya nomi va narxini chiqarish.
+**Ishga tushirish (1-misol):**
+```bash
+python3 ex03/ticker_symbols.py AAPL
+```
+**Natija:** `Apple 287.73`
+
+**Ishga tushirish (2-misol):**
+```bash
+python3 ex03/ticker_symbols.py GOOG
+```
+**Natija:** `Unknown ticker`
+
+---
+
+## ex04: To Dictionary
+**Fayl:** `ex04/to_dictionary.py`
+**Vazifa:** Ro'yxatni lug'atga aylantirish va formatlab chiqarish.
+**Ishga tushirish:**
+```bash
+python3 ex04/to_dictionary.py
+```
+**Kutilayotgan natija (taxminan):**
+```
+'25' : 'Russia'
+'25' : 'Brazil'
+'132' : 'France'
+'132' : 'Germany'
+...
+```
+
+---
+
+## ex05: All Stocks
+**Fayl:** `ex05/all_stocks.py`
+**Vazifa:** Aralash kiritilgan (Kompaniya yoki Ticker) so'rovlarni qayta ishlash.
+**Ishga tushirish:**
+```bash
+python3 ex05/all_stocks.py "Apple, AAPL, Nokia, GOOG"
+```
+**Kutilayotgan natija:**
+```
+Apple stock price is 287.73
+AAPL is a ticker symbol for Apple
+Nokia stock price is 3.37
+GOOG is an unknown company or an unknown ticker symbol
+```
+
+---
+
+## ex06: Dict Sorter
+**Fayl:** `ex06/dict_sorter.py`
+**Vazifa:** Lug'atni qiymati va kaliti bo'yicha saralash.
+**Ishga tushirish:**
+```bash
+python3 ex06/dict_sorter.py
+```
+**Kutilayotgan natija:**
+Davlatlar ro'yxati chiqadi ("The USA" dan boshlab kamayish tartibida).
+
+---
+
+## ex07: Marketing
+**Fayl:** `ex07/marketing.py`
+**Vazifa:** Marketing ro'yxatlarini shakllantirish (call_center, potential_clients, loyalty_program).
+**Ishga tushirish:**
+```bash
+python3 ex07/marketing.py call_center
+```
+**Kutilayotgan natija:**
+Ro'yxat ko'rinishida email manzillar (masalan `['ted@mosby.com', ...]`).
+
+---
+
+## ex08: Names Extractor & Letter Starter
+**1-qadam: Names Extractor**
+**Fayl:** `ex08/names_extractor.py`
+**Vazifa:** Email ro'yxati bor fayldan ism va familiyalarni ajratib `employees.tsv` ga yozish.
+**Ishga tushirish:**
+Avval ichida emaillar bor fayl kerak (masalan `emails.txt`).
+```bash
+python3 ex08/names_extractor.py emails.txt
+```
+*Natija:* `employees.tsv` fayli yaratiladi.
+
+**2-qadam: Letter Starter**
+**Fayl:** `ex08/letter_starter.py`
+**Vazifa:** `employees.tsv` dan kerakli emailni topib, tabriknoma chiqarish.
+**Ishga tushirish:**
+```bash
+python3 ex08/letter_starter.py jessica@gmail.com
+```
+**Kutilayotgan natija:**
+```
+Dear Jessica, welcome to our team! We are sure that it will be a pleasure to work with you. That’s a precondition for the professionals that our company hires.
+```
+
+---
+
+## ex09: Caesar Cipher
+**Fayl:** `ex09/caesar.py`
+**Vazifa:** Matnni Sezar usulida shifrlash (encode) va deshifrlash (decode).
+**Ishga tushirish (Encode):**
+```bash
+python3 ex09/caesar.py encode "Python is cool" 3
+```
+**Natija:** `Sbwkrq lv frro`
+
+**Ishga tushirish (Decode):**
+```bash
+python3 ex09/caesar.py decode "Sbwkrq lv frro" 3
+```
+**Natija:** `Python is cool`
+
+---
+Omad!

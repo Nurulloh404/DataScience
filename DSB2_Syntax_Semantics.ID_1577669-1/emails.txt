@@ -1,0 +1,3 @@
+ivan.ivanov@corp.com
+john.doe@corp.com
+jessica.alba@corp.com

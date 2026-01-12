@@ -1,0 +1,12 @@
+2025-12-31 13:19:27,149 Initializing Research class with path: data.csv
+2025-12-31 13:19:27,150 Reading file: data.csv
+2025-12-31 13:19:27,150 File read successfully, found 11 lines
+2025-12-31 13:19:27,150 Initializing Calculations class
+2025-12-31 13:19:27,150 Calculating counts of heads and tails
+2025-12-31 13:19:27,150 Calculating fractions
+2025-12-31 13:19:27,150 Predicting random outcomes for 3 steps
+2025-12-31 13:19:27,150 Initializing Calculations class
+2025-12-31 13:19:27,150 Calculating counts of heads and tails
+2025-12-31 13:19:27,150 Saving report to file: report.txt
+2025-12-31 13:19:27,150 Sending Telegram message: The report has been successfully created
+2025-12-31 13:19:28,018 Telegram message sent successfully
