@@ -1,0 +1,102 @@
+{
+  "id": "125070394",
+  "premium": false,
+  "name": "Backend-разработчик (Java, Spring Boot)",
+  "department": null,
+  "has_test": false,
+  "response_letter_required": false,
+  "area": {
+    "id": "2759",
+    "name": "Ташкент",
+    "url": "https://api.hh.ru/areas/2759"
+  },
+  "salary": null,
+  "salary_range": null,
+  "type": {
+    "id": "open",
+    "name": "Открытая"
+  },
+  "address": null,
+  "response_url": null,
+  "sort_point_distance": null,
+  "published_at": "2025-09-08T20:43:51+0300",
+  "created_at": "2025-09-08T20:43:51+0300",
+  "archived": false,
+  "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=125070394",
+  "show_logo_in_search": null,
+  "show_contacts": false,
+  "insider_interview": null,
+  "url": "https://api.hh.ru/vacancies/125070394?host=hh.ru",
+  "alternate_url": "https://hh.ru/vacancy/125070394",
+  "relations": [],
+  "employer": {
+    "id": "3879193",
+    "name": "Consort Group",
+    "url": "https://api.hh.ru/employers/3879193",
+    "alternate_url": "https://hh.ru/employer/3879193",
+    "logo_urls": {
+      "90": "https://img.hhcdn.ru/employer-logo/6981286.png",
+      "240": "https://img.hhcdn.ru/employer-logo/6981287.png",
+      "original": "https://img.hhcdn.ru/employer-logo-original/1340336.png"
+    },
+    "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3879193",
+    "accredited_it_employer": false,
+    "trusted": true
+  },
+  "snippet": {
+    "requirement": "Опыт работы с инструментами мониторинга и логирования. Будет плюсом: опыт работы с Big <highlighttext>Data</highlighttext> (Hadoop, Spark), интеграция систем машинного обучения.",
+    "responsibility": "Разработка и поддержка микросервисной архитектуры бэкенда на Spring Boot (Java). Разделение системы на микросервисы (управление пользователями, курсы, платежи, отчетность). "
+  },
+  "contacts": null,
+  "schedule": {
+    "id": "fullDay",
+    "name": "Полный день"
+  },
+  "working_days": [],
+  "working_time_intervals": [],
+  "working_time_modes": [],
+  "accept_temporary": true,
+  "fly_in_fly_out_duration": [],
+  "work_format": [
+    {
+      "id": "ON_SITE",
+      "name": "На месте работодателя"
+    }
+  ],
+  "working_hours": [
+    {
+      "id": "FLEXIBLE",
+      "name": "По договорённости"
+    }
+  ],
+  "work_schedule_by_days": [
+    {
+      "id": "FIVE_ON_TWO_OFF",
+      "name": "5/2"
+    }
+  ],
+  "night_shifts": false,
+  "professional_roles": [
+    {
+      "id": "96",
+      "name": "Программист, разработчик"
+    }
+  ],
+  "accept_incomplete_resumes": false,
+  "experience": {
+    "id": "between3And6",
+    "name": "От 3 до 6 лет"
+  },
+  "employment": {
+    "id": "project",
+    "name": "Проектная работа"
+  },
+  "employment_form": {
+    "id": "PROJECT",
+    "name": "Проект или разовое задание"
+  },
+  "internship": false,
+  "adv_response_url": null,
+  "is_adv_vacancy": false,
+  "adv_context": null
+}
